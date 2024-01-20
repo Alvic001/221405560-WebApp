@@ -11,6 +11,7 @@
   }
 </style>
 <body>
+
   <hr>
     <header>
       <nav>
@@ -28,40 +29,40 @@
   <hr>
     <section>
       <label for="User Name">Username:</label><br>
-      <input type="text" id="User" name="User" value=""><br><br>
+      <input type="text" id="User" name="User" required minlength="4"><br><br>
       <label for="User Name">Password:</label><br>
-      <input type="text" id="Password" name="Password" value=""><br><br>
+      <input type="password" id="Password" name="Password" required minlength="8"><br><br>
     </section>
 
     <section>
-      <input type="radio" id="Gender" name="Choose" value="">
+      <input type="radio" id="Gender" name="Choose">
       <label for="Gender">Male</label><br>
-      <input type="radio" id="Gender" name="Choose" value="">
+      <input type="radio" id="Gender" name="Choose">
       <label for="Gender">Female</label><br><br>
     </section>
 
     <section>
-      <input type="checkbox" id="Terms" name="Check" value="">
-      <label for="terms and condition">Terms and Condition</label><br><br>
+      <input type="checkbox" id="Terms" name="Check">
+      <label for="terms and condition">Accept Terms and Condition</label><br><br>
       <input type="submit" value="Submit">
     </section>
 
   <hr>
     <table>
       <tr>
-        <th>|Name</th>
-        <th>|Age</th>
-        <th>|City</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
       </tr>
       <tr>
-        <td>|John</td>
-        <td>|25</td>
-        <td>|New York</td>
+        <td>John</td>
+        <td>25</td>
+        <td>New York</td>
       </tr>
       <tr>
-        <td>|Jane</td>
-        <td>|30</td>
-        <td>|Los Angeles</td>
+        <td>Jane</td>
+        <td>30</td>
+        <td>Los Angeles</td>
       </tr>
     </table>
 
@@ -72,13 +73,14 @@
           <source src="mixkit-island-beat-250.mp3" type="audio/mpeg">
         </audio>
       </section>
-    <hr>
+
     <section>
       <video width="320" height="240" controls>
         <source src="https://www.shutterstock.com/shutterstock/videos/1099958669/preview/stock-footage-a-mallard-female-with-little-ducklings-in-wildlife-on-a-river-on-a-sunny-day-breeding-season-for.webm" type="video/mp4">
       </video>
     </section>
     </footer>
+  <hr>
 
 </body>
 </html>
