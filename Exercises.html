@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercises</title>
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+  </style>
 </head>
-<style>
-  table, th, td {
-    border:1px solid black;
-  }
-</style>
 <body>
   <hr>
     <header>
       <nav>
-        <h4><a href="#">Home</a></h4>
-        <h4><a href="#">About Us</a></h4>
-        <h4><a href="#">Contact</a></h4>
+        <h3><a href="#">Home</a></h3>
+        <h3><a href="#">About Us</a></h3>
+        <h3><a href="#">Contact</a></h3>
       </nav>
     </header>
   <hr>
@@ -26,25 +26,25 @@
       <figcaption>Figure 1: Duck</figcaption>
     </figure>
   <hr>
-    <section>
-      <label for="User Name">Username:</label><br>
-      <input type="text" id="User" name="User" required minlength="4"><br><br>
-      <label for="User Name">Password:</label><br>
-      <input type="password" id="Password" name="Password" required minlength="8"><br><br>
-    </section>
+    <div>
+      <label for="Username">Username:</label><br>
+      <input type="text" id="Username" name="User"><br><br>
+      <label for="Password">Password:</label><br>
+      <input type="text" id="Password" name="Password"><br><br>
+    </div>
 
-    <section>
-      <input type="radio" id="Gender" name="Choose">
-      <label for="Gender">Male</label><br>
-      <input type="radio" id="Gender" name="Choose">
-      <label for="Gender">Female</label><br><br>
-    </section>
+    <div>
+      <input type="radio" id="GenderM" name="Male">
+      <label for="GenderM">Male</label><br>
+      <input type="radio" id="GenderF" name="Female">
+      <label for="GenderF">Female</label><br><br>
+    </div>
 
-    <section>
-      <input type="checkbox" id="Terms" name="Check">
-      <label for="terms and condition">Accept Terms and Condition</label><br><br>
+    <div>
+      <input type="checkbox" id="Terms&Condition" name="Check">
+      <label for="Terms&Condition">Accept Terms and Condition</label><br><br>
       <input type="submit" value="Submit">
-    </section>
+    </div>
 
   <hr>
     <table>
@@ -67,19 +67,19 @@
 
   <hr>
     <footer>
-      <section>
+      <div>
         <audio controls>
           <source src="mixkit-island-beat-250.mp3" type="audio/mpeg">
         </audio>
-      </section>
+      </div>
 
-    <section>
-      <video width="320" height="240" controls>
-        <source src="https://www.shutterstock.com/shutterstock/videos/1099958669/preview/stock-footage-a-mallard-female-with-little-ducklings-in-wildlife-on-a-river-on-a-sunny-day-breeding-season-for.webm" type="video/mp4">
-      </video>
-    </section>
+    <hr>
+      <div>
+        <video width="320" height="240" controls>
+          <source src="https://www.shutterstock.com/shutterstock/videos/1099958669/preview/stock-footage-a-mallard-female-with-little-ducklings-in-wildlife-on-a-river-on-a-sunny-day-breeding-season-for.webm" type="video/mp4">
+        </video>
+      </div>
     </footer>
-  <hr>
 
 </body>
 </html>
