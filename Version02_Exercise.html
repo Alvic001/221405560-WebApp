@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercises</title>
+  <style>
+    div.center {
+    margin: auto;
+    width: 50%;
+    }
+    table, th, td {
+      border:1px solid black;
+    }
+    img.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table.center{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    audio.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    video.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#Section1">Image</a></li>
+          <li><a href="#Section2">Inputs</a></li>
+          <li><a href="#Section3">Table</a></li>
+          <li><a href="#Section4">Audio</a></li>
+          <li><a href="#Section5">Google Map</a></li>
+          <li><a href="#Section6">Twitter</a></li>
+        </ul>
+      </nav>
+
+    <section id="Section1">
+    <figure>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJkP9sEpOW5Tf2oDPRCsw9OYV0qwUhZ06m3w&usqp=CAU" alt="Duck" class="center">
+    </figure>
+    <hr>
+  </section>
+    <section id="Section2">
+        <div class="center">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="number">Enter a number:</label>
+            <input type="number" id="number" name="number" required><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <hr>
+    </section>
+    
+    <section id="Section3">
+        <table style="width: 51%;" class="center">
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>City</th>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>25</td>
+              <td>New York</td>
+            </tr>
+            <tr>
+              <td>Jane</td>
+              <td>30</td>
+              <td>Los Angeles</td>
+            </tr>
+          </table>
+        <hr>
+    </section>
+    
+    <section id="Section4">
+        <footer>
+            <div>
+              <audio controls class="center">
+                <source src="mixkit-island-beat-250.mp3" type="audio/mpeg">
+              </audio>
+            </div>
+          <hr>
+          </footer>
+    </section>
+
+    <section id="Section5">
+        <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61240.04507676203!2d120.54754273095068!3d16.399270279118088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a113c98366bf%3A0xc1add28ad4d5f164!2sBaguio%20City%2C%20Baguio%2C%20Benguet!5e0!3m2!1sen!2sph!4v1706618685917!5m2!1sen!2sph" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
+    </section>
+
+    <section id="Section6">
+        <center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+    </section>
+    
+</body>
+</html>
