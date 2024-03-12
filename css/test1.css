@@ -1,0 +1,15 @@
+h1{
+    color: black;
+    font-size: large;
+}
+
+ul{
+    color: darkblue;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+p{
+    font-style: oblique;
+    padding-left: 40%;
+}
